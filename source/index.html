@@ -11,29 +11,31 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="logo" href="#">
-      <img class="logo__image" src="#" alt="Логотип сайта" width="60" height="50">
-      <img class="logo__text" src="#" alt="Название сайта" width="100" height="18">
+    <a class="main-header__logo logo" href="index.html">
+      <img class="logo__image logo__image--icon" src="#" alt="Логотип сайта" width="60" height="50">
+      <img class="logo__image logo__image--text" src="#" alt="Название сайта" width="100" height="18">
     </a>
 
-    <button type="button" name="navigation-toogle">
-      <span class="visually-hidden">Открыть меню</span>
-    </button>
-
     <nav class="navigation">
+      <button class="navigation__toggle burger-button" type="button" name="burger-button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+
       <ul class="navigation__list">
-        <li class="navigation__item">
+        <li class="navigation__item current-item">
           Главная
         </li>
 
-        <li class="navigation__item current-item">
+        <li class="navigation__item">
           <a class="navigation__link" href="catalog.html">
             Каталог продукции
           </a>
         </li>
 
         <li class="navigation__item">
-          Подбор программы
+          <a class="navigation__link" href="#">
+            Подбор программы
+          </a>
         </li>
       </ul>
     </nav>
@@ -155,8 +157,8 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <img class="footer__logo" src="#" alt="Название сайта" width="128" height="24">
+  <footer class="main-footer">
+    <img class="main-footer__logo" src="#" alt="Название сайта" width="128" height="24">
 
     <div class="social">
       <ul class="social__list">
