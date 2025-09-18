@@ -6,6 +6,7 @@
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -50,7 +51,12 @@
       <p class="advertisement__description">Занялся собой? Займись котом!</p>
       <button class="primary-button" type="button">Подобрать программу</button>
 
-      <img class="advertisement__image" src="#" width="280" height="270" alt="Упаковка корма">
+      <picture>
+        <source type="image/png" media="(min-width: 1440px)" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x" width="552" height="499">
+        <source type="image/png" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x" width="709" height="609">
+        <img class="advertisement__image" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Упаковка корма">
+      </picture>
+
     </section>
 
     <section class="offers">
@@ -137,7 +143,16 @@
         </p>
       </div>
 
-      <img class="example__results-image" src="#" alt="Слайдер с котом" width="560" height="512">
+      <picture>
+        <source type="image/png" media="(min-width: 768px)" srcset="images/fat-cat-tablet@1x.png 1x, images/fat-cat-tablet@2x.png 2x" width="560" height="512">
+        <img class="example__results-image" src="images/fat-cat-mobile@1x.png" srcset="images/fat-cat-mobile@2x.png 2x" width="280" height="256" alt="Толстый кот">
+      </picture>
+
+      <picture>
+        <source type="image/png" media="(min-width: 768px)" srcset="images/slim-cat-tablet@1x.png 1x, images/slim-cat-tablet@2x.png 2x" width="560" height="512">
+        <img class="example__results-image" src="images/slim-cat-mobile@1x.png" srcset="images/slim-cat-mobile@2x.png 2x" width="280" height="256" alt="Толстый кот">
+      </picture>
+
       <button class="example__results-image-button" type="button">Ползунок для слайдера</button>
     </section>
 
@@ -154,6 +169,12 @@
       <h2 class="map__title visually-hidden">Карта с локацией</h2>
 
       <!-- Тут будет карта -->
+      <picture>
+        <source type="image/png" media="(min-width: 1440px)" srcset="images/location-desktop@1x.png 1x, images/location-desktop@2x.png 2x" width="1440" height="400">
+        <source type="image/png" media="(min-width: 768px)" srcset="images/location-tablet@1x.png 1x, images/location-tablet@2x.png 2x" width="768" height="400">
+        <img class="map__image" src="images/location-mobile@1x.png" srcset="images/location-mobile@2x.png 2x" width="320" height="362" alt="Карта">
+      </picture>
+
     </section>
   </main>
 
