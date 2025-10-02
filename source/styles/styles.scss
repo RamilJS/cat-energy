@@ -2,6 +2,25 @@
 @import "./common/variables.scss";
 @import "./common/global.scss";
 @import "./common/fonts.scss";
+@import "./common/visually-hidden.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/advertisement.scss";
+@import "./blocks/primary-button.scss";
+@import "./blocks/offers.scss";
+@import "./blocks/instruction.scss";
+@import "./blocks/example.scss";
+@import "./blocks/products.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/special-products.scss";
+@import "./blocks/special-product-card.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/invitation.scss";
+@import "./blocks/map.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/company-adress.scss";
+@import "./blocks/social.scss";
+@import "./blocks/html-academy-logo.scss";
